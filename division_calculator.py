@@ -12,5 +12,7 @@ while True:
         answer = int(first_number) / int(second_number)
     except ZeroDivisionError:
         print("You cannot divide by zero!")
+    except ValueError:
+        print("You provided a value that was not a number, please try again.")
     else:
         print(answer)
