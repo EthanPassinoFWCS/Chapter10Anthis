@@ -5,4 +5,3 @@ try:
         contents = f.read()
 except FileNotFoundError:
     print(f"Sorry, the file {filename} does not exist.")
-
